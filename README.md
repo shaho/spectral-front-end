@@ -6,7 +6,6 @@
 <img src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=flat&logo=vue.js&logoColor=green">
 <img src="https://img.shields.io/badge/vuex%20-%2335495e.svg?&style=flat&logo=vue.js&logoColor=green">
 <img src="https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=flat&logo=tailwind-css&logoColor=white">
-<img alt="Jest" src="https://img.shields.io/badge/-jest-%23C21325?style=flat&logo=jest&logoColor=white"/>
 <img src="https://img.shields.io/badge/storybook%20-%23FF4785.svg?&style=flat&logo=storybook&logoColor=white">
 </div>
 
@@ -30,17 +29,11 @@ npm install && npm run serve
 ### Run Storybook
 
 ```
-npm run test:unit
+npm run storybook
 ```
 
 ### Compiles and minifies for production
 
 ```
 npm run build
-```
-
-### Run your unit tests
-
-```
-npm run test:unit
 ```
