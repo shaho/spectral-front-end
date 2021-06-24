@@ -2,15 +2,34 @@
   "name": "spectral-front-end",
   "version": "0.1.0",
   "private": true,
+  "description": "Spectral front-end assignment",
+  "author": {
+    "name": "Shaho Toofani",
+    "email": "toofani@gmail.com",
+    "url": "http://shaho.info/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaho/spectral-front-end"
+  },
+  "keywords": [
+    "dashboard",
+    "vue",
+    "vuex",
+    "storybook"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
+    "chart.js": "2.8.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
